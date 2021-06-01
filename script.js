@@ -1,7 +1,6 @@
 var button = document.querySelector('button');
 var input = document.querySelector('input');
 var list = document.querySelector('.list-items')
-var listItems = []
 
 
 button.addEventListener('click', function() {
