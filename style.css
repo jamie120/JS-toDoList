@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 182, 211);
+}
+
+.main {
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.instructions,
+.instruction-complete,
+.instruction-remove {
+    font-size: 1.2rem;
+    line-height: 0.5em;
+}
+
+.instructions {
+    color: rgb(255, 199, 79);
+}
+
+.instruction-complete{
+    color: rgb(64, 240, 64);
+}
+
+.instruction-remove {
+    padding-bottom: 0.5em;
+    color:rgb(52, 110, 101)
+}
+
+.input-wrapper {
+    width: 70%;
+    display: flex;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5em;
+}
+
+.add-btn {
+    border-radius: 10px;
+    border: none;
+    padding: 0.2em;
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: lightgray;
+}
+
+.delete-btn {
+    float: right;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 0.2em;
+    margin-top: 0.3em;
+    margin-right: 0.4em;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    width: 50%;
+    height: 30px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    list-style-type: none;
+}
+
+.delete {
+    display: none;
+}
+
+.complete {
+    background-color: limegreen;
+}
